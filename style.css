@@ -1,5 +1,37 @@
+body {
+    margin: auto;
+    font-family: 'Comfortaa', cursive; 
+}
 
-.circular {
+.intro {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.intro h2 {
+    font-family: 'Comfortaa', cursive; 
+    text-transform: uppercase;
+}
+
+#name {
+    font-family: 'Birthstone Bounce', cursive;
+    text-transform: none;
+    font-size: 68px;
+    color: #325D88;
+}
+
+.contact {
+    font-size: 32px;
+}
+
+.fa-linkedin:hover, .fa-square-github:hover, .fa-square-envelope:hover {
+    color: #325D88 !important;
+}
+
+/* .circular {
     margin: auto;
     width: 200px;
     height: 200px;
@@ -15,7 +47,7 @@
 
 .banner {
     max-width: 100%;
-}
+} */
 
 .navbar .navbar-nav .nav-link:hover{
     background-color: black;
@@ -32,5 +64,5 @@
 }
 
 .nav-link {
-    font-size: 22px;
+    font-size: 24px;
 }
