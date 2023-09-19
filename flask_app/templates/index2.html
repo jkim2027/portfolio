@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-around">
+        <div class="col-4">
+            <div class="intro">
+                <h2>Hi, I'm</h2>
+                <h2 id="name">Joyce</h2>
+                <div>
+                    <h2>Web Developer,</h2>
+                    <h2>Former Teacher</h2>
+                </div>
+                <div class="contact">
+                    <a href="https://www.linkedin.com/in/heyjoycehong/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #3f3f3a;"></i></a>
+                    <a href="https://github.com/jkim2027" target="_blank"><i class="fa-brands fa-square-github" style="color: #3f3f3a;"></i></a>
+                    <a href="mailto: codejoycefully@gmail.com" target="_blank"><i class="fa-solid fa-square-envelope" style="color: #3f3f3a;"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="container">
+                <h4 style="text-transform: uppercase;">About me</h4>
+                <p>For the past 13 years, I have dedicated myself to the field of education, shaping young minds and fostering a love for learning. Recently, I made the decision to embark on a new career path, driven by my fascination with web development and its potential to create innovative and impactful solutions. Despite the demands of a full-time teaching career and the responsibilities of a family, I proactively enrolled in a coding bootcamp to expand my skill set and acquire a solid foundation in web development. I am now equipped with a solid understanding of web development principles, programming languages, and industry best practices. In addition to my technical expertise, I bring a strong work ethic, adaptability, and effective communication skills honed through years of classroom teaching.</p>
+                <a href="/resume">View Full Résumé <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="container">
+                    <h4 style="text-transform: uppercase;">Projects</h4>
+                        <div class="project-container mb-4">
+                            <div class="left-container">
+                                <img src="static/images/project1.png" alt="project" class="project-img">
+                            </div>
+                            <div class="right-container">
+                                <h5>Personal Organizer <i class="fa-solid fa-arrow-up-right-from-square"></i></h5>
+                                <p>A web app to create tasks and events for personal organization. Customize each category and filter to see your upcoming deadlines.</p>
+                            </div>
+                        </div>
+                        <div class="project-container">
+                            <div class="left-container">
+                                <img src="static/images/project2.png" alt="project" class="project-img">
+                            </div>
+                            <div class="right-container">
+                                <h5>JK Wellness <i class="fa-solid fa-arrow-up-right-from-square"></i></h5>
+                                <p>A static site for a client's health & wellness business.</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+{% endblock %}

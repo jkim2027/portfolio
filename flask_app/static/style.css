@@ -69,3 +69,8 @@ body {
     border: 1px solid #888888;
     box-shadow: 5px 10px 8px #888888;
 }
+
+.col-6 {
+    overflow: auto;
+    height: 500px;
+}
