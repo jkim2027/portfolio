@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block head %}
+    <script src="static/script.js"></script>
+{%  endblock %}
+
 {% block content %}
 
 <div class="container">
@@ -10,7 +14,7 @@
                 <img src="static/images/project1.png" alt="project" class="project-img">
             </div>
             <div class="right-container">
-                <a href="https://github.com/jkim2027/organizer"><h5>Personal Organizer <i class="fa-solid fa-arrow-up-right-from-square"></i></h5></a>
+                <a href="https://github.com/jkim2027/organizer" target="_blank" onmouseover="changeColor(this)" onmouseout="changeBack(this)"><h5>Personal Organizer <i class="fa-solid fa-arrow-up-right-from-square"></i></h5></a>
                 <p>A web app to create tasks and events for personal organization. Customize each category and filter to see your upcoming deadlines.</p>
             </div>
         </div>
@@ -21,7 +25,7 @@
                 <img src="static/images/project2.png" alt="project" class="project-img">
             </div>
             <div class="right-container">
-                <a href="https://github.com/jkim2027/jkwellness"><h5>JK Wellness <i class="fa-solid fa-arrow-up-right-from-square"></i></h5></a>
+                <a href="https://github.com/jkim2027/jkwellness" target="_blank" onmouseover="changeColor(this)" onmouseout="changeBack(this)"><h5>JK Wellness <i class="fa-solid fa-arrow-up-right-from-square"></i></h5></a>
                 <p>A static site for a client's health & wellness business.</p>
             </div>
         </div>
